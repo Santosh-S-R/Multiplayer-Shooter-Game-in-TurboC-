@@ -4,6 +4,14 @@ A retro-style two-player shooting game built using Turbo C++ graphics. This proj
 
 ---
 
+## How to Run
+
+You can run this project using an online Turbo C++ graphics compiler:
+
+https://graphics-h-compiler.vercel.app/compiler
+
+---
+
 ## Gameplay Overview
 
 This is a local multiplayer game with two roles:
@@ -20,7 +28,7 @@ Objective:
 ## Screenshots
 
 ### Gameplay
-![Gameplay](./assets/gameplay.png)
+![Gameplay](./gameplay.png)
 
 - Real-time movement and shooting  
 - Mouse-based aiming  
@@ -28,8 +36,17 @@ Objective:
 
 ---
 
+### Instructions Screen
+![Instructions](./instructions.png)
+
+- Displays game rules and controls  
+- Explains attacker vs defender roles  
+- Shows win conditions clearly  
+
+---
+
 ### Game Over Screen
-![Game Over](./assets/game-over.png)
+![Game Over](./game-over.png)
 
 - Displays the winner  
 - Final score summary for both players  
@@ -37,12 +54,11 @@ Objective:
 ---
 
 ### Player Details and Score Storage
-![Player Details](./assets/player-details.png)
+![Player Details](./player-details.png)
 
 - Player name input  
 - Score calculation  
 - Persistent storage using file handling  
-
 ---
 
 ## Features
@@ -71,29 +87,13 @@ Concepts implemented:
 
 ---
 
-## Limitations
+## Some parts that could be improved
 
 - Designed for Turbo C++ / DOS environment  
 - Not compatible with modern compilers without modification  
 - Uses legacy constructs such as `gets()` and `goto`  
 
 ---
-
-## How to Run
-
-You can run this project using an online Turbo C++ graphics compiler:
-
-https://graphics-h-compiler.vercel.app/compiler
-
----
-
-## Future Improvements
-
-- Port to modern frameworks such as SFML or SDL  
-- Improve graphics and UI  
-- Add sound effects  
-- Introduce AI opponent  
-- Expand gameplay features  
 
 ---
 
